@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌟 About Me - Yassin Bacha 🌟</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f0f0f;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Fade-in animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+            animation: fadeIn 1.3s ease-in-out;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .profile-img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ffffff33;
+            box-shadow: 0 0 25px #ffffff33;
+            animation: fadeIn 1.8s ease-in-out;
+        }
+
+        .insta {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #e1306c;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .insta:hover {
+            background: #ff4780;
+            transform: translateY(-3px);
+        }
+
+        /* Floating animation */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .floating {
+            animation: float 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="floating">🌟 About Me ( Yassin_Bacha ) 🌟</h1>
+        <img src="yassinn.jpg" alt="Profile Image" class="profile-img" />
+        <br>
+        <a href="https://instagram.com/becha_ysn" class="insta" target="_blank">📸 Instagram: becha_ysn</a>
+            <br><br>
+        <a href="#" class="insta" style="background:#5865F2;">🌀 Discord: speedy_officiel</a>
+        <br><br>
+        <a href="https://www.instagram.com/becha_ysn/" class="insta" style="background:#009688;" target="_blank">💼 Contact for Job</a>
+            <br><br>
+        <!-- Hire Me Section -->
+        <section style="margin-top:60px; animation: fadeIn 1.5s ease-in-out;">
+            <h2 style="font-size:2em; margin-bottom:15px;">🚀 Hire Me</h2>
+            <p style="font-size:1.2em; opacity:0.9;">If you want professional work, designs, animations, or websites — contact me directly!</p>
+            <br>
+            <a href="https://www.instagram.com/becha_ysn/" class="insta" style="background:#00b894; padding:15px 30px; font-size:1.2em; border-radius:12px;" target="_blank">💼 Contact Me on Instagram</a>
+        </section>
+    </div>
+</body>
+</html>
